@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/dracula-protocol-v2-calculator/precache-manifest.8f5318c285a3cc49c0c7e6526cebadf2.js"
+  "/dracula-protocol-v2-calculator/precache-manifest.04edf255d8a9a351f5c2221e04f1c958.js"
 );
 
 self.addEventListener('message', (event) => {
