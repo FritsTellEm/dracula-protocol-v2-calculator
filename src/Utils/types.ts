@@ -17,12 +17,9 @@ export interface EnhancedAssumptions extends InputAssumptions {
   DRCPoolInterestPerDay: number
 }
 
-export interface TraditionalFarmingStrategyResult {
+export interface DailyResult {
   day: number
   yieldEarned: number
-  totalYieldEarned: number
-  rewardsToClaim: number
-  claimThisDay: boolean
   compoundingETH: number
   ETHInterestEarned: number
   ETHEarnings: number
@@ -31,16 +28,13 @@ export interface TraditionalFarmingStrategyResult {
   profit: number
 }
 
-export interface DRCFarmingStrategyResult {
-  day: number
-  yieldEarned: number
-  compoundingETH: number
-  ETHInterestEarned: number
-  ETHEarnings: number
-  gassCost: number
-  totalGassCost: number
-  profit: number
+export interface TraditionalFarmingStrategyResult extends DailyResult {
+  totalYieldEarned: number
+  rewardsToClaim: number
+  claimThisDay: boolean
 }
+
+export interface DRCFarmingStrategyResult extends DailyResult {}
 
 export interface Result {
   traditional: TraditionalFarmingStrategyResult[]

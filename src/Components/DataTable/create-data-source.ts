@@ -1,12 +1,13 @@
+import { calculateProfitDifference } from '../../Utils/calculate-profit-difference'
 import { Result } from '../../Utils/types'
 
 export default function createDataSource(result: Result) {
   return result.traditional.map((traditionalResult, index) => {
     const drcResult = result.drc[index]
-    const profitDifference =
-      drcResult.profit < traditionalResult.profit
-        ? -1 * Math.abs(traditionalResult.profit - drcResult.profit)
-        : Math.abs(traditionalResult.profit - drcResult.profit)
+    const profitDifference = calculateProfitDifference(
+      traditionalResult,
+      drcResult
+    )
     return {
       day: traditionalResult.day,
       traditionalYieldEarned: traditionalResult.yieldEarned,

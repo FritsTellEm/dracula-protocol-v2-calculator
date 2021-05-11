@@ -29,7 +29,7 @@ function App() {
     <PageWindow>
       <Header />
 
-      <Charts result={result} />
+      <Charts assumptions={assumptions} result={result} />
 
       <Divider />
 

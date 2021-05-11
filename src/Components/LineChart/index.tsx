@@ -43,7 +43,7 @@ function LineChart({ result }: Props) {
           height={50}
           minTickGap={25}
           label={{
-            value: 'Days',
+            value: 'Farming Duration in Days',
             position: 'insideBottom',
           }}
         />
