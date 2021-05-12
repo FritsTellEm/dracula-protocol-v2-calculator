@@ -211,7 +211,7 @@ export default function AssumptionsForm({
         <img
           src={DraculaChan}
           alt="Dracula Chan"
-          style={{ marginBottom: -20 }}
+          style={{ marginBottom: -20, opacity: 0.5 }}
         />
       </Col>
     </Row>

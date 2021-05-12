@@ -79,7 +79,7 @@ export function createSeries(
           return formatCurrency(value)
         },
         enabled: true,
-        color: '#black',
+        color: 'lightgrey',
       },
     },
   ]
