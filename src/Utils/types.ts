@@ -23,8 +23,8 @@ export interface DailyResult {
   compoundingETH: number
   ETHInterestEarned: number
   ETHEarnings: number
-  gassCost: number
-  totalGassCost: number
+  gasCost: number
+  totalGasCost: number
   profit: number
 }
 

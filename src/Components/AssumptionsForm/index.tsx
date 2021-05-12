@@ -108,12 +108,12 @@ export default function AssumptionsForm({
               </Item>
               <Item
                 name="gasTransactionCost"
-                label={<Text strong>Gass Transaction Cost</Text>}
+                label={<Text strong>Gas Transaction Cost</Text>}
                 extra="Average cost of a single transaction in USD."
                 rules={[
                   {
                     required: true,
-                    message: 'Gass Transaction Cost is required!',
+                    message: 'Gas Transaction Cost is required!',
                   },
                 ]}
               >

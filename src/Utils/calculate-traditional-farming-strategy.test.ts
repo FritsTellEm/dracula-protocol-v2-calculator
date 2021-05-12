@@ -34,8 +34,8 @@ describe('calculateTraditionalFarmingStrategy', () => {
         compoundingETH: 0,
         ETHInterestEarned: 0,
         ETHEarnings: 0,
-        gassCost: 30,
-        totalGassCost: 30,
+        gasCost: 30,
+        totalGasCost: 30,
         profit: -10,
       },
       {
@@ -47,8 +47,8 @@ describe('calculateTraditionalFarmingStrategy', () => {
         compoundingETH: 0,
         ETHInterestEarned: 0,
         ETHEarnings: 0,
-        gassCost: 0,
-        totalGassCost: 30,
+        gasCost: 0,
+        totalGasCost: 30,
         profit: 10,
       },
       {
@@ -60,8 +60,8 @@ describe('calculateTraditionalFarmingStrategy', () => {
         compoundingETH: 0,
         ETHInterestEarned: 0,
         ETHEarnings: 0,
-        gassCost: 0,
-        totalGassCost: 30,
+        gasCost: 0,
+        totalGasCost: 30,
         profit: 30,
       },
     ]
@@ -86,8 +86,8 @@ describe('calculateTraditionalFarmingStrategy', () => {
         compoundingETH: 20,
         ETHInterestEarned: 0.2,
         ETHEarnings: 20.2,
-        gassCost: 60,
-        totalGassCost: 60,
+        gasCost: 60,
+        totalGasCost: 60,
         profit: -39.8, // 20.2 - 60
       },
       {
@@ -99,8 +99,8 @@ describe('calculateTraditionalFarmingStrategy', () => {
         compoundingETH: 40.2,
         ETHInterestEarned: 0.402,
         ETHEarnings: 40.602,
-        gassCost: 30,
-        totalGassCost: 90,
+        gasCost: 30,
+        totalGasCost: 90,
         profit: -49.398, // 40.602 - 90
       },
       {
@@ -112,8 +112,8 @@ describe('calculateTraditionalFarmingStrategy', () => {
         compoundingETH: 60.602,
         ETHInterestEarned: 0.60602,
         ETHEarnings: 61.20802,
-        gassCost: 30,
-        totalGassCost: 120,
+        gasCost: 30,
+        totalGasCost: 120,
         profit: -58.79198, // 61.20802 - 120
       },
     ]
@@ -138,8 +138,8 @@ describe('calculateTraditionalFarmingStrategy', () => {
         compoundingETH: 0,
         ETHInterestEarned: 0,
         ETHEarnings: 0,
-        gassCost: 30,
-        totalGassCost: 30,
+        gasCost: 30,
+        totalGasCost: 30,
         profit: -10, // 20 - 30
       },
       {
@@ -151,8 +151,8 @@ describe('calculateTraditionalFarmingStrategy', () => {
         compoundingETH: 40,
         ETHInterestEarned: 0.4,
         ETHEarnings: 40.4,
-        gassCost: 30,
-        totalGassCost: 60,
+        gasCost: 30,
+        totalGasCost: 60,
         profit: -19.6, // 40.4 - 60
       },
       {
@@ -164,8 +164,8 @@ describe('calculateTraditionalFarmingStrategy', () => {
         compoundingETH: 40.4,
         ETHInterestEarned: 0.404,
         ETHEarnings: 40.804,
-        gassCost: 0,
-        totalGassCost: 60,
+        gasCost: 0,
+        totalGasCost: 60,
         profit: 0.804, // (40.804 + 20) - 60
       },
     ]

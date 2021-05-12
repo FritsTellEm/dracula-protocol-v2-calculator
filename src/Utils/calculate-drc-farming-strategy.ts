@@ -30,7 +30,7 @@ function calculateFirstDayResult(
     .plus(ETHInterestEarned)
     .toNumber()
 
-  const gassCost = new BigNumber(gasTransactionCost)
+  const gasCost = new BigNumber(gasTransactionCost)
     .times(
       depositTransactionAmount +
         depositTransactionAmount +
@@ -38,9 +38,9 @@ function calculateFirstDayResult(
     )
     .toNumber()
 
-  const totalGassCost = gassCost
+  const totalGasCost = gasCost
 
-  const profit = new BigNumber(ETHEarnings).minus(totalGassCost).toNumber()
+  const profit = new BigNumber(ETHEarnings).minus(totalGasCost).toNumber()
 
   return {
     day,
@@ -48,8 +48,8 @@ function calculateFirstDayResult(
     compoundingETH,
     ETHInterestEarned,
     ETHEarnings,
-    gassCost,
-    totalGassCost,
+    gasCost,
+    totalGasCost,
     profit,
   }
 }
@@ -79,13 +79,13 @@ export function calculateResult(
     .plus(ETHInterestEarned)
     .toNumber()
 
-  const gassCost = 0
+  const gasCost = 0
 
-  const totalGassCost = new BigNumber(previousDayResult.totalGassCost)
-    .plus(gassCost)
+  const totalGasCost = new BigNumber(previousDayResult.totalGasCost)
+    .plus(gasCost)
     .toNumber()
 
-  const profit = new BigNumber(ETHEarnings).minus(totalGassCost).toNumber()
+  const profit = new BigNumber(ETHEarnings).minus(totalGasCost).toNumber()
 
   return {
     day,
@@ -93,8 +93,8 @@ export function calculateResult(
     compoundingETH,
     ETHInterestEarned,
     ETHEarnings,
-    gassCost,
-    totalGassCost,
+    gasCost,
+    totalGasCost,
     profit,
   }
 }

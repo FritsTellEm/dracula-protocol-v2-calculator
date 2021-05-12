@@ -27,8 +27,8 @@ describe('calculateDRCFarmingStrategy', () => {
         compoundingETH: 17,
         ETHInterestEarned: 0.17,
         ETHEarnings: 17.17,
-        gassCost: 50,
-        totalGassCost: 50,
+        gasCost: 50,
+        totalGasCost: 50,
         profit: -32.83, // 17.17 - 50
       },
       {
@@ -37,8 +37,8 @@ describe('calculateDRCFarmingStrategy', () => {
         compoundingETH: 34.17,
         ETHInterestEarned: 0.3417,
         ETHEarnings: 34.5117,
-        gassCost: 0,
-        totalGassCost: 50,
+        gasCost: 0,
+        totalGasCost: 50,
         profit: -15.4883, // 34.5117 - 50
       },
       {
@@ -47,8 +47,8 @@ describe('calculateDRCFarmingStrategy', () => {
         compoundingETH: 51.5117,
         ETHInterestEarned: 0.515117,
         ETHEarnings: 52.026817,
-        gassCost: 0,
-        totalGassCost: 50,
+        gasCost: 0,
+        totalGasCost: 50,
         profit: 2.026817, // 52.026817 - 50
       },
     ]
