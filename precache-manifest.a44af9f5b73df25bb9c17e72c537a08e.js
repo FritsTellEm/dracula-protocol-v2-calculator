@@ -1,18 +1,18 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "9d74364392b4003f6512d65a024e643e",
+    "revision": "dac339c32c910c44fad965fb6429121c",
     "url": "/dracula-protocol-v2-calculator/index.html"
   },
   {
-    "revision": "b2578081b33261a58399",
-    "url": "/dracula-protocol-v2-calculator/static/css/2.d59b80f0.chunk.css"
+    "revision": "4b4badbbe10916b099a6",
+    "url": "/dracula-protocol-v2-calculator/static/css/2.31b470b4.chunk.css"
   },
   {
-    "revision": "7e7c2da3e40702c2f6e5",
-    "url": "/dracula-protocol-v2-calculator/static/css/main.b5b0cc90.chunk.css"
+    "revision": "94963652b7ac5d67b236",
+    "url": "/dracula-protocol-v2-calculator/static/css/main.be7046c4.chunk.css"
   },
   {
-    "revision": "b2578081b33261a58399",
+    "revision": "4b4badbbe10916b099a6",
     "url": "/dracula-protocol-v2-calculator/static/js/2.34c42546.chunk.js"
   },
   {
@@ -20,8 +20,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/dracula-protocol-v2-calculator/static/js/2.34c42546.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "7e7c2da3e40702c2f6e5",
-    "url": "/dracula-protocol-v2-calculator/static/js/main.698f904f.chunk.js"
+    "revision": "94963652b7ac5d67b236",
+    "url": "/dracula-protocol-v2-calculator/static/js/main.addea4c8.chunk.js"
   },
   {
     "revision": "17a96dc7026ec805b620",
