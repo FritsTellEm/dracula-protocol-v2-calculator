@@ -1,27 +1,28 @@
 {
   "files": {
     "main.css": "/dracula-protocol-v2-calculator/static/css/main.be7046c4.chunk.css",
-    "main.js": "/dracula-protocol-v2-calculator/static/js/main.18f2caa1.chunk.js",
-    "main.js.map": "/dracula-protocol-v2-calculator/static/js/main.18f2caa1.chunk.js.map",
+    "main.js": "/dracula-protocol-v2-calculator/static/js/main.414dc5c9.chunk.js",
+    "main.js.map": "/dracula-protocol-v2-calculator/static/js/main.414dc5c9.chunk.js.map",
     "runtime-main.js": "/dracula-protocol-v2-calculator/static/js/runtime-main.f826eb1c.js",
     "runtime-main.js.map": "/dracula-protocol-v2-calculator/static/js/runtime-main.f826eb1c.js.map",
-    "static/css/2.91556cbd.chunk.css": "/dracula-protocol-v2-calculator/static/css/2.91556cbd.chunk.css",
-    "static/js/2.34c42546.chunk.js": "/dracula-protocol-v2-calculator/static/js/2.34c42546.chunk.js",
-    "static/js/2.34c42546.chunk.js.map": "/dracula-protocol-v2-calculator/static/js/2.34c42546.chunk.js.map",
+    "static/css/2.ec7a07b6.chunk.css": "/dracula-protocol-v2-calculator/static/css/2.ec7a07b6.chunk.css",
+    "static/js/2.2b4592d6.chunk.js": "/dracula-protocol-v2-calculator/static/js/2.2b4592d6.chunk.js",
+    "static/js/2.2b4592d6.chunk.js.map": "/dracula-protocol-v2-calculator/static/js/2.2b4592d6.chunk.js.map",
     "index.html": "/dracula-protocol-v2-calculator/index.html",
-    "precache-manifest.b19f82e408b0ebf95823a1f2cbf12021.js": "/dracula-protocol-v2-calculator/precache-manifest.b19f82e408b0ebf95823a1f2cbf12021.js",
+    "precache-manifest.95d1d6b7625cb67ec2b866ea668e035a.js": "/dracula-protocol-v2-calculator/precache-manifest.95d1d6b7625cb67ec2b866ea668e035a.js",
     "service-worker.js": "/dracula-protocol-v2-calculator/service-worker.js",
-    "static/css/2.91556cbd.chunk.css.map": "/dracula-protocol-v2-calculator/static/css/2.91556cbd.chunk.css.map",
+    "static/css/2.ec7a07b6.chunk.css.map": "/dracula-protocol-v2-calculator/static/css/2.ec7a07b6.chunk.css.map",
     "static/css/main.be7046c4.chunk.css.map": "/dracula-protocol-v2-calculator/static/css/main.be7046c4.chunk.css.map",
-    "static/js/2.34c42546.chunk.js.LICENSE.txt": "/dracula-protocol-v2-calculator/static/js/2.34c42546.chunk.js.LICENSE.txt",
-    "static/media/dracula-chan.png": "/dracula-protocol-v2-calculator/static/media/dracula-chan.5fa71319.png",
+    "static/js/2.2b4592d6.chunk.js.LICENSE.txt": "/dracula-protocol-v2-calculator/static/js/2.2b4592d6.chunk.js.LICENSE.txt",
+    "static/media/draccie-drinking.png": "/dracula-protocol-v2-calculator/static/media/draccie-drinking.5fa71319.png",
+    "static/media/draccie-grinning.png": "/dracula-protocol-v2-calculator/static/media/draccie-grinning.a6b5abef.png",
     "static/media/dracula-protocol-logo.webp": "/dracula-protocol-v2-calculator/static/media/dracula-protocol-logo.f7740153.webp"
   },
   "entrypoints": [
     "static/js/runtime-main.f826eb1c.js",
-    "static/css/2.91556cbd.chunk.css",
-    "static/js/2.34c42546.chunk.js",
+    "static/css/2.ec7a07b6.chunk.css",
+    "static/js/2.2b4592d6.chunk.js",
     "static/css/main.be7046c4.chunk.css",
-    "static/js/main.18f2caa1.chunk.js"
+    "static/js/main.414dc5c9.chunk.js"
   ]
 }
