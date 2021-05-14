@@ -4,7 +4,7 @@ import Title from 'antd/lib/typography/Title'
 import { InputAssumptions } from '../../Utils/types'
 import InputPercentage from '../InputPercentage'
 import InputCurrency from '../InputCurrency'
-import DraculaChan from '../../Resources/dracula-chan.png'
+import Draccie from '../../Resources/draccie-drinking.png'
 
 const { Item } = Form
 const { Text } = Typography
@@ -31,7 +31,7 @@ export default function AssumptionsForm({
   }
 
   return (
-    <Row align="bottom">
+    <Row align="bottom" gutter={[12, 0]}>
       <Col xs={24} sm={16}>
         <Form
           labelCol={{ span: 12 }}
@@ -209,8 +209,8 @@ export default function AssumptionsForm({
       </Col>
       <Col xs={0} sm={8}>
         <img
-          src={DraculaChan}
-          alt="Dracula Chan"
+          src={Draccie}
+          alt="Draccie drinking"
           style={{ marginBottom: -20, opacity: 0.5 }}
         />
       </Col>

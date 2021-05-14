@@ -1,5 +1,5 @@
 import React, { useState } from 'react'
-import { Collapse, Divider } from 'antd'
+import { Collapse, Divider, Typography } from 'antd'
 
 import * as defaultAssumptions from '../../Utils/default-assumptions'
 import { enhanceAssumptions } from '../../Utils/enhance-assumptions'
@@ -11,8 +11,10 @@ import AssumptionsForm from '../../Components/AssumptionsForm'
 import { InputAssumptions } from '../../Utils/types'
 import calculateStrategies from '../../Utils/calculate-strategies'
 import Footer from '../../Components/Footer'
+import Considerations from '../../Components/Considerations'
 
 const { Panel } = Collapse
+const { Text } = Typography
 
 function App() {
   const [assumptions, setAssumptions] = useState(
@@ -34,14 +36,17 @@ function App() {
       <Divider />
 
       <Collapse defaultActiveKey={['1']}>
-        <Panel header="Assumptions" key="1">
+        <Panel header={<Text strong>Assumptions</Text>} key="1">
           <AssumptionsForm
             assumptions={assumptions}
             onChangeAssumptions={onChangeAssumptions}
           />
         </Panel>
-        <Panel header="Data" key="2">
+        <Panel header={<Text strong>Data</Text>} key="2">
           <DataTable result={result} />
+        </Panel>
+        <Panel header={<Text strong>Considerations</Text>} key="3">
+          <Considerations />
         </Panel>
       </Collapse>
 
